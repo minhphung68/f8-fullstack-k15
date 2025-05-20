@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/prismjs@1.30.0/themes/prism.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.30.0/themes/prism-okaidia.css">
+    <link rel="stylesheet" href="style.css">
     <title>
       Hướng dẫn xây dựng ứng dụng Todo List đơn giản với HTML, CSS và JavaScript
     </title>
-    <style>
+    <!-- <style>
         .thecode {
             background-color: #2F2B26;
             color: #E2B674;
             border-radius: 4px;
             padding: 4px;
         }
-    </style>
+    </style> -->
   </head>
   <body>
      <strong>
@@ -74,9 +75,9 @@
     </pre>
     <p><b>Giải thích:</b></p>
     <ul>
-        <li><p><code class="thecode">input</code> là nơi người dùng nhập nội dung công việc.</p></li>
-        <li><p><code class="thecode">button</code> để thêm công việc vào danh sách.</p></li>
-        <li><p><code class="thecode">ul</code> chứa danh sách các công việc dưới dạng <code class="thecode">li</code>.</p></li>
+        <li><p><code>input</code> là nơi người dùng nhập nội dung công việc.</p></li>
+        <li><p><code>button</code> để thêm công việc vào danh sách.</p></li>
+        <li><p><code>ul</code> chứa danh sách các công việc dưới dạng <code>li</code>.</p></li>
     </ul>
     <hr>
     <h2>Bước 2: Trang trí ứng dụng với CSS</h2>
@@ -137,7 +138,7 @@ body {
     <p><b>Giải thích:</b></p>
     <ul>
         <li><p>Sử dụng Flexbox để canh giữa màn hình.</p></li>
-        <li><p>Mỗi <code class="thecode">li</code> có nút xóa nằm bên phải.</p></li>
+        <li><p>Mỗi <code>li</code> có nút xóa nằm bên phải.</p></li>
     </ul>
     <hr>
     <h2>Bước 3: Thêm chức năng với JavaScript</h2>
@@ -172,8 +173,8 @@ function removeTask(button) {
     <p><b>Giải thích:</b></p>
     <ul>
         <li><p>Khi nhấn nút "Thêm", lấy nội dung từ ô nhập và thêm vào danh sách nếu không rỗng.</p></li>
-        <li><p>Hàm <code class="thecode">addTask()</code> tạo một phần tử <code class="thecode">li</code> chứa nội dung công việc và nút "X" để xóa.</p></li>
-        <li><p>Hàm <code class="thecode">removeTask()</code> sẽ xóa phần tử <code class="thecode">li</code> khi người dùng bấm nút.</p></li>
+        <li><p>Hàm <code>addTask()</code> tạo một phần tử <code>li</code> chứa nội dung công việc và nút "X" để xóa.</p></li>
+        <li><p>Hàm <code>removeTask()</code> sẽ xóa phần tử <code>li</code> khi người dùng bấm nút.</p></li>
     </ul>
     <hr>
     <h2>Tổng kết</h2>
